@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}  >
-                    Osas
+                    {"< osas />"}
                 </Link>
                 <div className="menu-icon" onClick={clickHandler} >              
                     {click ? <FaTimes className="fa-times" /> : <FaBars className="fa-bars"/>}
