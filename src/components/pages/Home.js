@@ -2,19 +2,20 @@ import React from 'react'
 import './Home.css'
 
 import Section from '../Section'
+import {aboutProps, projectsProps, githubProps, contactProps} from './Data'
 
 
 const Home = () => {
     return (
         <div className="home">
             <Section
-            id="about"/>
+            {...aboutProps}/>
             <Section
-            id="projects"/>
+            {...projectsProps}/>
             <Section
-            id="github"/>
+            {...githubProps}/>
             <Section
-            id="contact"/>
+            {...contactProps}/>
         </div>
     )
 }
