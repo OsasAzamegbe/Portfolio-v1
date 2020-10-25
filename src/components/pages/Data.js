@@ -1,26 +1,31 @@
 const aboutProps = {
     id: "about",
-    isDark: false
+    isDark: false,
+    isRed: false
 }
 
 const projectsProps = {
     id: "projects",
-    isDark: true
+    isDark: true,
+    isRed: true
 }
 
 const githubProps = {
     id: "github",
-    isDark: false
+    isDark: false,
+    isRed: false
 }
 
 const contactProps = {
     id: "contact",
-    isDark: true
+    isDark: true,
+    isRed: false
 }
 
 const homeProps = {
     id: "home",
-    isDark: false
+    isDark: false,
+    isRed: false
 }
 
 module.exports = {aboutProps, projectsProps, githubProps, contactProps, homeProps}

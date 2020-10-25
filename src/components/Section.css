@@ -11,3 +11,7 @@
 .dark{
     background-color: var(--dark-blue);
 }
+
+.red{
+    background-color: var(--red);
+}
