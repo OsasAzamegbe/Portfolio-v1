@@ -1,17 +1,11 @@
-const aboutProps = {
-    id: "about",
-    isDark: false,
-    isRed: false
-}
-
 const projectsProps = {
     id: "projects",
     isDark: true,
     isRed: true
 }
 
-const socialsProps = {
-    id: "socials",
+const aboutProps = {
+    id: "about",
     isDark: false,
     isRed: false
 }
@@ -28,4 +22,4 @@ const homeProps = {
     isRed: false
 }
 
-module.exports = {aboutProps, projectsProps, socialsProps, contactProps, homeProps}
+module.exports = {projectsProps, aboutProps, contactProps, homeProps}

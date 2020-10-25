@@ -29,15 +29,15 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className="nav-item">
+                        <a href="#about" className="nav-links" onClick={closeMobileMenu} >
+                            About
+                        </a>
+                    </li>
+                    <li className="nav-item">
                         <Link to="//github.com/OsasAzamegbe"
                         target="_blank" className="nav-links" onClick={closeMobileMenu} >
                             Github
                         </Link>
-                    </li>
-                    <li className="nav-item">
-                        <a href="#socials" className="nav-links" onClick={closeMobileMenu} >
-                            Socials
-                        </a>
                     </li>
                     <li className="nav-item">
                         <a href="#contact" className="nav-links" onClick={closeMobileMenu} >
