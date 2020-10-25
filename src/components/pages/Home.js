@@ -3,6 +3,7 @@ import './Home.css'
 
 import Section from '../Section'
 import Welcome from './welcome/Welcome'
+import Projects from './projects/Projects'
 import {projectsProps, aboutProps, contactProps, homeProps} from './Data'
 
 
@@ -13,7 +14,8 @@ const Home = () => {
             {...homeProps}
             childComponent={<Welcome/>} />
             <Section
-            {...projectsProps}/>
+            {...projectsProps}
+            childComponent={<Projects/>}/>
             <Section
             {...aboutProps}/>
             <Section
