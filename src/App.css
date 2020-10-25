@@ -5,4 +5,18 @@
   --yellow: #f8e9a1;
   --accent-blue: #374785;
   --dark-blue: #24305e;
+  --primary-fonts: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --secondary-fonts: garamond, 'Bookman';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-fonts);
+}
+
+html, body{
+  background-color: var(--background);
+  color: var(--primary)
 }
