@@ -3,7 +3,7 @@ import './Home.css'
 
 import Section from '../Section'
 import Welcome from './welcome/Welcome'
-import {projectsProps, githubProps, contactProps, homeProps} from './Data'
+import {projectsProps, socialsProps, contactProps, homeProps} from './Data'
 
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
             <Section
             {...projectsProps}/>
             <Section
-            {...githubProps}/>
+            {...socialsProps}/>
             <Section
             {...contactProps}/>
         </div>

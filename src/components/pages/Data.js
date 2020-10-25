@@ -10,8 +10,8 @@ const projectsProps = {
     isRed: true
 }
 
-const githubProps = {
-    id: "github",
+const socialsProps = {
+    id: "socials",
     isDark: false,
     isRed: false
 }
@@ -28,4 +28,4 @@ const homeProps = {
     isRed: false
 }
 
-module.exports = {aboutProps, projectsProps, githubProps, contactProps, homeProps}
+module.exports = {aboutProps, projectsProps, socialsProps, contactProps, homeProps}

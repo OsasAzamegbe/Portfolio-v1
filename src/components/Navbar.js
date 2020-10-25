@@ -35,6 +35,11 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
+                        <a href="#socials" className="nav-links" onClick={closeMobileMenu} >
+                            Socials
+                        </a>
+                    </li>
+                    <li className="nav-item">
                         <a href="#contact" className="nav-links" onClick={closeMobileMenu} >
                             Contact
                         </a>
