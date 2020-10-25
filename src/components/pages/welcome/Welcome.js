@@ -6,7 +6,7 @@ const Welcome = () => {
     return (
         <div className="welcome">
             <header className="heading-text">
-                HELLO MY NAME IS OSAS
+                HELLO, MY NAME IS OSAS
             </header>
             <p className="subheading-text">
                 I Am A Software Engineer

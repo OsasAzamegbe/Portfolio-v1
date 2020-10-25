@@ -3,9 +3,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
+    text-align: center;
 }
 
 .heading-text{
+    font-family: var(--secondary-fonts);
     font-size: 72px;
     font-weight: 900;
     line-height: 7rem;
@@ -15,4 +18,17 @@
     font-size: 48px;
     font-weight: 200;
     line-height: 5rem;
+    color: var(--dark-red)
+}
+
+@media screen and (max-width: 960px){
+    .heading-text{
+        font-size: 48px;
+        line-height: 3.5rem;
+        margin-bottom: 18px;
+    }
+    .subheading-text{
+        font-size: 36px;
+        line-height: 2.5rem;
+    }
 }
