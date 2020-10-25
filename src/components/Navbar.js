@@ -24,14 +24,14 @@ const Navbar = () => {
     
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/about" className="nav-links" onClick={closeMobileMenu} >
+                        <a href="#about" className="nav-links" onClick={closeMobileMenu} >
                             About
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <Link to="/projects" className="nav-links" onClick={closeMobileMenu} >
+                        <a href="#projects" className="nav-links" onClick={closeMobileMenu} >
                             Projects
-                        </Link>
+                        </a>
                     </li>
                     <li className="nav-item">
                         <Link to="//github.com/OsasAzamegbe"
@@ -40,9 +40,9 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/projects" className="nav-links" onClick={closeMobileMenu} >
+                        <a href="#contact" className="nav-links" onClick={closeMobileMenu} >
                             Contact
-                        </Link>
+                        </a>
                     </li>
                 </ul>
 
