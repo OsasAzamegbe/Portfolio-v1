@@ -18,4 +18,9 @@ const contactProps = {
     isDark: true
 }
 
-module.exports = {aboutProps, projectsProps, githubProps, contactProps }
+const homeProps = {
+    id: "home",
+    isDark: false
+}
+
+module.exports = {aboutProps, projectsProps, githubProps, contactProps, homeProps}
