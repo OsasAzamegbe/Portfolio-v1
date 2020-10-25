@@ -1,0 +1,10 @@
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-text{
+    font-size: 64px;
+    font-weight: 500;
+}
