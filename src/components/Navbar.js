@@ -1,27 +1,16 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
-import Button from './Button'
 import './Navbar.css'
 
 
 const Navbar = () => {
 
     const [click, setClick] = useState(false)
-    const [button, setButton] = useState(true)
 
     const clickHandler = () => setClick(!click)
     const closeMobileMenu = () => setClick(false);
 
-    const showButton = () => {
-        if (window.innerWidth <= 960){
-            setButton(false)
-        } else {
-            setButton(true)
-        }
-    }
-
-    window.addEventListener('resize', showButton)
 
     return (
         <nav className="navbar">
@@ -35,24 +24,24 @@ const Navbar = () => {
     
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/profile" className="nav-links" onClick={closeMobileMenu} >
-                            Profile
+                        <Link to="/about" className="nav-links" onClick={closeMobileMenu} >
+                            About
                         </Link>
                     </li>
-                    <li className="nav-btn">
-                        <Link to="/logout" className="btn-link" onClick={closeMobileMenu} >
-                            {button ? 
-                            <Button buttonStyle="btn--outline">LOG OUT</Button>
-                            :
-                            <Button buttonStyle="btn--outline" buttonSize="btn--mobile">LOG OUT</Button>}
-                        </Link>
-                    </li>
-                </ul>
-                
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <Link to="/login" className="nav-links" onClick={closeMobileMenu} >
-                            Login
+                        <Link to="/projects" className="nav-links" onClick={closeMobileMenu} >
+                            Projects
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="//github.com/OsasAzamegbe"
+                        target="_blank" className="nav-links" onClick={closeMobileMenu} >
+                            Github
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="/projects" className="nav-links" onClick={closeMobileMenu} >
+                            Contact
                         </Link>
                     </li>
                 </ul>
