@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 
 import Section from '../Section'
+import Welcome from './welcome/Welcome'
 import {projectsProps, githubProps, contactProps, homeProps} from './Data'
 
 
@@ -9,7 +10,8 @@ const Home = () => {
     return (
         <div className="home">
             <Section
-            {...homeProps}/>
+            {...homeProps}
+            childComponent={<Welcome/>} />
             <Section
             {...projectsProps}/>
             <Section
