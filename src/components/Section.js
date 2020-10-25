@@ -2,9 +2,9 @@ import React from 'react'
 import './Section.css'
 
 
-const Section = ({id}) => {
+const Section = ({id, isDark}) => {
     return (
-        <section className="section" id={`#${id}`}>
+        <section className={`section ${isDark ? "dark" : null}`} id={`#${id}`}>
             <p>{id}</p>
         </section>
     )
