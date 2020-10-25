@@ -19,6 +19,4 @@
 html, body{
   background-color: var(--background);
   color: var(--primary);
-  height: 90%;
-  width: 100%;
 }
