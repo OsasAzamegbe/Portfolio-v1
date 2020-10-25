@@ -6,10 +6,10 @@ const Welcome = () => {
     return (
         <div className="welcome">
             <header className="heading-text">
-                HELLO, MY NAME IS OSAS
+                HELLO, I'M OSAS.
             </header>
             <p className="subheading-text">
-                I Am A Software Engineer
+                I Am A Software Engineer.
             </p>
         </div>
     )
