@@ -41,18 +41,19 @@
 
 @media screen and (max-width: 960px) {
     .card{
-        width: 80vw;
-        height: 80vw;
+        width: 90vw;
+        height: 90vw;
         font-size: 0.75rem;
+        margin: 12px;
     }
 
     .card-heading{
-        font-size: 1.25rem;
+        font-size: 1rem;
         margin-bottom: 10px;
     }
     
     .card-description{
         margin: 5px;
-        line-height: 24px;
+        line-height: normal;
     }
 }
