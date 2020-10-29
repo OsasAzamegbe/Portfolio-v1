@@ -4,6 +4,7 @@ import './Home.css'
 import Section from '../Section'
 import Welcome from './welcome/Welcome'
 import Projects from './projects/Projects'
+import About from './about/About'
 import {projectsProps, aboutProps, contactProps, homeProps} from './Data'
 
 
@@ -17,7 +18,8 @@ const Home = () => {
             {...projectsProps}
             childComponent={<Projects/>}/>
             <Section
-            {...aboutProps}/>
+            {...aboutProps}
+            childComponent={<About/>} />
             <Section
             {...contactProps}/>
         </div>
