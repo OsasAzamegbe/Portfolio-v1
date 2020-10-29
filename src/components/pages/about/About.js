@@ -21,11 +21,21 @@ const About = () => {
                 <p className="about-content-extra">Artist. Engineer.</p>
             </div>
             <div className="tech-container">
-                <header className="tech-header"><p>Technologies</p></header>
+                <header className="tech-header">Technologies</header>
                 <div className="tech-icons">
-                    <SiNodeDotJs className="icon node-icon"/>
-                    <SiReact className="icon react-icon"/>
-                    <SiMongodb className="icon mongodb-icon"/>
+                    <div className="icon-container">
+                        <SiNodeDotJs className="icon node-icon"/>
+                        <p>Node.js</p>
+                    </div>
+                    <div className="icon-container">
+                        <SiReact className="icon react-icon"/>
+                        <p>React</p>
+                    </div>
+                    <div className="icon-container">
+                        <SiMongodb className="icon mongodb-icon"/>
+                        <p>MongoDB</p>
+                    </div>
+
                 </div>
             </div>
         </div>
