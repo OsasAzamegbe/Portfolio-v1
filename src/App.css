@@ -1,15 +1,17 @@
 :root{
   --white: #fff;
   --off-white: #f2f2f2;
-  --background: #7891a1;
-  --primary: #fff;
+  --background: #021d44;
+  --primary: #f7f6f5;
   --dark: #612a2a;
-  --red: #f06969;
-  /* --red: #f76c6c; */
+  /* --accent-red: #f06969; */
+  --accent-red: #ec485b;
+  --red: #ff3e55;
   --dark-red:  #612a2a;
   --yellow: #f8e9a1;
   --accent-blue: #374785;
-  --dark-blue: #24305e;
+  /* --dark-blue: #08162b; */
+  --dark-blue: #0a2750;
   --primary-fonts: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   --secondary-fonts: garamond, 'Bookman';
 }
