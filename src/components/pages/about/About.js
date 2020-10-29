@@ -1,6 +1,10 @@
 import React from 'react'
 import './About.css'
-import {SiNodeDotJs, SiReact, SiMongodb} from 'react-icons/si'
+import {
+    SiNodeDotJs, SiReact, SiMongodb, SiPython, 
+    SiDjango, SiJavascript, SiBootstrap, SiHtml5, 
+    SiCss3, SiGit, SiMysql
+} from 'react-icons/si'
 
 
 const About = () => {
@@ -24,6 +28,18 @@ const About = () => {
                 <header className="tech-header">Technologies</header>
                 <div className="tech-icons">
                     <div className="icon-container">
+                        <SiPython className="icon node-icon"/>
+                        <p>Python</p>
+                    </div>
+                    <div className="icon-container">
+                        <SiDjango className="icon node-icon"/>
+                        <p>Django</p>
+                    </div>
+                    <div className="icon-container">
+                        <SiJavascript className="icon node-icon"/>
+                        <p>Javascript</p>
+                    </div>
+                    <div className="icon-container">
                         <SiNodeDotJs className="icon node-icon"/>
                         <p>Node.js</p>
                     </div>
@@ -34,7 +50,27 @@ const About = () => {
                     <div className="icon-container">
                         <SiMongodb className="icon mongodb-icon"/>
                         <p>MongoDB</p>
+                    </div> 
+                    <div className="icon-container">
+                        <SiMysql className="icon mongodb-icon"/>
+                        <p>MySQL</p>
+                    </div>                    
+                    <div className="icon-container">
+                        <SiHtml5 className="icon node-icon"/>
+                        <p>Html5</p>
                     </div>
+                    <div className="icon-container">
+                        <SiCss3 className="icon node-icon"/>
+                        <p>CSS3</p>
+                    </div>
+                    <div className="icon-container">
+                        <SiBootstrap className="icon node-icon"/>
+                        <p>Bootstrap</p>
+                    </div>
+                    <div className="icon-container">
+                        <SiGit className="icon node-icon"/>
+                        <p>Git</p>
+                    </div>                    
 
                 </div>
             </div>
