@@ -1,6 +1,7 @@
 import React from 'react'
 import './Card.css'
 import {Link} from 'react-router-dom'
+import {SiNodeDotJs, SiReact, SiMongodb} from 'react-icons/si'
 
 
 const Card = () => {
@@ -17,6 +18,12 @@ const Card = () => {
                         Live Version
                     </Link>
                 </div>
+                <div className="card-techstack">
+                    <SiNodeDotJs className="icon node-icon"/>
+                    <SiReact className="icon react-icon"/>
+                    <SiMongodb className="icon mongodb-icon"/>
+                </div>
+
             </div>
             
         </div>
