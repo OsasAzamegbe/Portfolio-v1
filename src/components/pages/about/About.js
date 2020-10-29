@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import {SiNodeDotJs, SiReact, SiMongodb} from 'react-icons/si'
 
 
 const About = () => {
@@ -22,7 +23,9 @@ const About = () => {
             <div className="tech-container">
                 <header className="tech-header"><p>Technologies</p></header>
                 <div className="tech-icons">
-
+                    <SiNodeDotJs className="icon node-icon"/>
+                    <SiReact className="icon react-icon"/>
+                    <SiMongodb className="icon mongodb-icon"/>
                 </div>
             </div>
         </div>
