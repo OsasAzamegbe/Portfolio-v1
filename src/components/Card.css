@@ -8,6 +8,11 @@
     background-color: var(--yellow);
     width: 60vmin;
     height: 60vmin;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover{
+    transform: scale(1.02);    
 }
 
 .card-container{
@@ -20,13 +25,23 @@
 .card-links-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 24px 0;
+    margin: 12px 0;
     width: 100%;
 }
 
-.card-links-container, a{
+.card-link{
+    background-color: rgba(128, 128, 128, 0.199);
+    color: var(--dark);
+    font-weight: bolder;
     text-decoration: none;
-    color: inherit;
+    padding: 8px;
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+}
+
+.card-link:active, .card-link:hover{
+    background-color: grey;
+    color: var(--off-white);    
 }
 
 .card-heading{
