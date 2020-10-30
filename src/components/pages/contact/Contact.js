@@ -32,7 +32,9 @@ const Contact = () => {
                     </Link>                    
                 </div>
             </div>
-            <ContactForm/>
+            <div  className="contact-form-container">
+                <ContactForm/>
+            </div>            
             <p className="copyrights">&#169; Osamudiamen Azamegbe 2020</p>
         </div>
     )
