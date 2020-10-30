@@ -33,6 +33,7 @@ const Contact = () => {
                 </div>
             </div>
             <ContactForm/>
+            <p className="copyrights">&#169; Osamudiamen Azamegbe 2020</p>
         </div>
     )
 }
