@@ -2,12 +2,18 @@
     display: flex;
     width: 100%;
     padding: 24px 0;
+    font-size: 24px;
+}
+
+.contactform-form{
+    width: 100%;
 }
 
 .form-item{
     display: grid;
-    grid-template-columns: 84px auto;
-    padding: 8px 6px;
+    grid-template-columns: 120px auto;
+    padding: 12px 6px;
+    width: 100%;
 }
 
 .form-label{
@@ -17,6 +23,11 @@
 .form-input{
     border: none;
     padding: 5px 15px;
+    width: 100%;
+}
+
+#message {
+    resize: none;
 }
 
 .btn{
@@ -28,4 +39,21 @@
     padding: 10px 5px;
     border-radius: 3px;
     margin: 12px 0;
+    font-size: inherit;
+}
+
+.form-btn:hover, .form-btn:active{
+    background-color: var(--red);
+    color: var(--primary);
+    transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 960px){
+    .contactform{
+        font-size: 1rem;
+    }
+
+    .form-item{
+        grid-template-columns: 84px auto;
+    }
 }
