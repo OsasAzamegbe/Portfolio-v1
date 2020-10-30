@@ -28,19 +28,19 @@ const About = () => {
                 <header className="tech-header">Tech Stack</header>
                 <div className="tech-icons">
                     <div className="icon-container">
-                        <SiPython className="icon node-icon"/>
+                        <SiPython className="icon"/>
                         <p>Python</p>
                     </div>
                     <div className="icon-container">
-                        <SiDjango className="icon node-icon"/>
+                        <SiDjango className="icon"/>
                         <p>Django</p>
                     </div>
                     <div className="icon-container">
-                        <SiJavascript className="icon node-icon"/>
+                        <SiJavascript className="icon"/>
                         <p>Javascript</p>
                     </div>
                     <div className="icon-container">
-                        <SiNodeDotJs className="icon node-icon"/>
+                        <SiNodeDotJs className="icon"/>
                         <p>Node.js</p>
                     </div>
                     <div className="icon-container">
@@ -56,19 +56,19 @@ const About = () => {
                         <p>MySQL</p>
                     </div>                    
                     <div className="icon-container">
-                        <SiHtml5 className="icon node-icon"/>
+                        <SiHtml5 className="icon"/>
                         <p>Html5</p>
                     </div>
                     <div className="icon-container">
-                        <SiCss3 className="icon node-icon"/>
+                        <SiCss3 className="icon"/>
                         <p>CSS3</p>
                     </div>
                     <div className="icon-container">
-                        <SiBootstrap className="icon node-icon"/>
+                        <SiBootstrap className="icon"/>
                         <p>Bootstrap</p>
                     </div>
                     <div className="icon-container">
-                        <SiGit className="icon node-icon"/>
+                        <SiGit className="icon"/>
                         <p>Git</p>
                     </div>                    
 
