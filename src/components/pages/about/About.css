@@ -8,7 +8,7 @@
 
 .about-quotes-container{
     padding: 8px 0;
-    margin-bottom: 24px;
+    margin: 24px;
     max-width: 360px;
 }
 
@@ -32,8 +32,8 @@ strong{
 
 .about-content-container{
     width: 60%;
-    margin: 24px;
-    padding: 8px;
+    margin: 64px 0;
+    padding: 36px 0;
 }
 
 .about-content{
@@ -81,6 +81,7 @@ strong{
     flex-direction: column;
     text-align: center;
     padding: 5px;
+    margin: 12px 0;
 }
 
 .icon-container p {

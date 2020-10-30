@@ -25,7 +25,7 @@ const About = () => {
                 <p className="about-content-extra">Artist. Engineer.</p>
             </div>
             <div className="tech-container">
-                <header className="tech-header">Technologies</header>
+                <header className="tech-header">Tech Stack</header>
                 <div className="tech-icons">
                     <div className="icon-container">
                         <SiPython className="icon node-icon"/>
