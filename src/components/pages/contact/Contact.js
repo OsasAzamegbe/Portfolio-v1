@@ -6,6 +6,8 @@ import {
 } from 'react-icons/si'
 import {Link} from 'react-router-dom'
 
+import ContactForm from '../../ContactForm'
+
 
 const Contact = () => {
     return (
@@ -30,6 +32,7 @@ const Contact = () => {
                     </Link>                    
                 </div>
             </div>
+            <ContactForm/>
         </div>
     )
 }
