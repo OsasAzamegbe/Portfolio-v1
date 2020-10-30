@@ -12,16 +12,22 @@ const Contact = () => {
         <div className="contact">
             <div className="contact-icons">
                 <div className="icon-container">
-                    <SiGithub className="icon "/>
-                    <p>Github</p>
+                    <Link to="//github.com/OsasAzamegbe" target="_blank">
+                        <SiGithub className="icon "/>
+                        <p>Github</p>
+                    </Link>                    
                 </div>
                 <div className="icon-container">
-                    <SiLinkedin className="icon "/>
-                    <p>LinkedIn</p>
+                    <Link to="//www.linkedin.com/in/osamudiamen-azamegbe/" target="_blank">
+                        <SiLinkedin className="icon "/>
+                        <p>LinkedIn</p>
+                    </Link>                    
                 </div>
                 <div className="icon-container">
-                    <SiMedium className="icon "/>
-                    <p>Medium</p>
+                    <Link to="//medium.com/@osas.azamegbe" target="_blank">
+                        <SiMedium className="icon "/>
+                        <p>Medium</p>
+                    </Link>                    
                 </div>
             </div>
         </div>
