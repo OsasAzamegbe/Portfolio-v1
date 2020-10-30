@@ -1,0 +1,31 @@
+.contactform{
+    display: flex;
+    width: 100%;
+    padding: 24px 0;
+}
+
+.form-item{
+    display: grid;
+    grid-template-columns: 84px auto;
+    padding: 8px 6px;
+}
+
+.form-label{
+    padding: 5px 10px;
+}
+
+.form-input{
+    border: none;
+    padding: 5px 15px;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+}
+
+.form-btn{
+    padding: 10px 5px;
+    border-radius: 3px;
+    margin: 12px 0;
+}
