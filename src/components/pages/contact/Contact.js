@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom'
 const Contact = () => {
     return (
         <div className="contact">
-            <div className="tech-icons">
+            <div className="contact-icons">
                 <div className="icon-container">
                     <SiGithub className="icon "/>
                     <p>Github</p>
