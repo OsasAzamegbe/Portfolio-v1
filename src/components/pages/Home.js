@@ -5,6 +5,7 @@ import Section from '../Section'
 import Welcome from './welcome/Welcome'
 import Projects from './projects/Projects'
 import About from './about/About'
+import Contact from './contact/Contact'
 import {projectsProps, aboutProps, contactProps, homeProps} from './Data'
 
 
@@ -21,7 +22,8 @@ const Home = () => {
             {...aboutProps}
             childComponent={<About/>} />
             <Section
-            {...contactProps}/>
+            {...contactProps}
+            childComponent={<Contact/>} />
         </div>
     )
 }
