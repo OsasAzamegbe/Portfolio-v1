@@ -70,9 +70,6 @@ strong{
     flex-wrap: wrap;
 }
 
-.icon{
-    font-size: 48px;
-}
 
 .icon-container{
     display: flex;
@@ -93,7 +90,4 @@ strong{
         width: 90%;
     }
 
-    .icon{
-        font-size: 36px;
-    }
 }
