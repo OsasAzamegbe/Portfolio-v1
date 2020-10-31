@@ -56,7 +56,7 @@ const ContactForm = () => {
 
     return (
         <div className="contactform">
-            <form className="contactform-form">
+            <form  onSubmit={submitHandler} className="contactform-form">
                 <div className="form-item">
                     <label className="form-label">Name</label>
                     <input value={name} onChange={nameHandler} required name="name" 
@@ -77,7 +77,7 @@ const ContactForm = () => {
                     rows="10" cols="25" name="message" id="message" type="text" placeholder="Message" className="form-input"/>
                 </div>
                 <div className="form-item form-item-btn">
-                    <button onSubmit={submitHandler} className="btn form-btn" type="submit">SEND</button>
+                    <button className="btn form-btn" type="submit">SEND</button>
                 </div>
             </form>
         </div>
