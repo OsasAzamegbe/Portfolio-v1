@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 import * as techIcons from './Icons'
 
 
-const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref, techStack, image}) => {
+const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref, techStack}) => {
     return(
-        <div style={{background: `url(${image})  center center/cover`}} className="card-wrapper" >
+        <div className="card-wrapper" >
             <div className="card card-pad">
                 <div className="card-container">
                     <header className="card-heading">{headingText}</header>

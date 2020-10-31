@@ -11,8 +11,15 @@
 .card-wrapper{
     margin: 8px;
     cursor: pointer;
-    /* background: url(../images/urlShortening.png) center center/cover; */
     transition: all 0.2s ease;
+}
+
+.card-wrapper:nth-child(1){
+    background: url(../images/urlShortening.png) center center/cover;
+}
+
+.card-wrapper:nth-child(2){
+    background: url(../images/snake.png) center center/cover;
 }
 
 .card-pad{
