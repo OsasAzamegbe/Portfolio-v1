@@ -4,17 +4,17 @@ import {Link} from 'react-router-dom'
 import {SiNodeDotJs, SiReact, SiMongodb} from 'react-icons/si'
 
 
-const Card = () => {
+const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref}) => {
     return(
         <div className="card">
             <div className="card-container">
-                <header className="card-heading">URL Shortening Service</header>
-                <p className="card-description">URL SHORTENER that takes URLs and gives users shortened versions for easier use. The shortened URLs redirect to the original long URL when accessed through a browser.</p>
+                <header className="card-heading">{headingText}</header>
+                <p className="card-description">{descriptionText}</p>
                 <div className="card-links-container">
-                    <Link className="card-link" target="_blank" to="//github.com/OsasAzamegbe/Url-Shortening-Service">
+                    <Link className="card-link" target="_blank" to={codeBaseHref}>
                         Code Base
                     </Link>
-                    <Link className="card-link" target="_blank" to="//sh-orten.herokuapp.com/">
+                    <Link className="card-link" target="_blank" to={liveVersionHref}>
                         Live Version
                     </Link>
                 </div>

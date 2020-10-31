@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Card from '../../Card'
+const projectsData = require('./projects.json')
 
 
 const Projects = () => {
@@ -8,12 +9,11 @@ const Projects = () => {
         <div className="projects">
             <header className="projects-heading-text">Selected Projects</header>
             <div className="projects-container">
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+                {
+                    projectsData.map(
+                        (dataObj, index) => <Card {...dataObj} key={index} />
+                    )
+                }
             </div>
         </div>
     )
