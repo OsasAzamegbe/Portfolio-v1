@@ -1,0 +1,9 @@
+.icon{
+    font-size: 36px;
+}
+
+@media screen and (max-width: 960px){
+    .icon{
+        font-size: 24px;
+    }
+}
