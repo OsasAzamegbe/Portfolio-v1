@@ -18,11 +18,11 @@ router.post('/', (req, res, next) => {
     const email = req.body.email
     const title = req.body.title
     const message = req.body.message
-    const content = `name: ${name} \n email: ${email} \n title: [PORTFOLIO] - ${title} \n message: ${message} `
+    const content = `name: ${name} \n email: ${email} \n title: ${title} \n message: ${message} `
     const mail = {
       from: email,
       to: process.env.EMAIL_ADDRESS,
-      subject: title,
+      subject: `[PORTFOLIO] - ${title}`,
       text: content
     }
     transporter.sendMail(mail, (err, data) => {
@@ -30,12 +30,10 @@ router.post('/', (req, res, next) => {
         res.json({
           status: 'fail'
         })
-        console.log("fail", "\n", err)
       } else {
         res.json({
          status: 'success'
         })
-        console.log("success", "\n", data)
       }
     })
   })
