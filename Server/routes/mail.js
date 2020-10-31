@@ -1,17 +1,8 @@
 const router = require('express').Router()
-const nodemailer = require('nodemailer');
 const dotenv = require('dotenv')
 dotenv.config()
 
-
-let transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 587,
-    auth: {
-      user: process.env.EMAIL_ADDRESS,
-      pass: process.env.EMAIL_PASSWORD
-    }
-});
+let transporter = require('../config/nodemailerConfig')
 
 transporter.verify(function(error, success) {
     if (error) {
@@ -29,7 +20,7 @@ router.post('/', (req, res, next) => {
     const message = req.body.message
     const content = `name: ${name} \n email: ${email} \n title: [PORTFOLIO] - ${title} \n message: ${message} `
     const mail = {
-      from: name,
+      from: email,
       to: process.env.EMAIL_ADDRESS,
       subject: title,
       text: content

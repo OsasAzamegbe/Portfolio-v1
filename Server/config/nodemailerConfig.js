@@ -3,7 +3,7 @@ const googleAuth = require('./googleAuthConfig');
 const dotenv = require('dotenv')
 dotenv.config()
 
-const EMAIL_USERNAME =process.env.EMAIL_ADDRESS,;
+const EMAIL_USERNAME = process.env.EMAIL_ADDRESS;
 const COMMON_NAME = "[PORTFOLIO]";
 
 const nodemailerSettings = {
