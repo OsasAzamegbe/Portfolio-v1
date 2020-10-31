@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import * as techIcons from '../../Icons'
 
 
 const About = () => {
@@ -22,51 +23,7 @@ const About = () => {
             <div className="tech-container">
                 <header className="tech-header">Tech Stack</header>
                 <div className="tech-icons">
-                    {/* <div className="icon-container">
-                        <SiPython className="icon"/>
-                        <p>Python</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiDjango className="icon"/>
-                        <p>Django</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiJavascript className="icon"/>
-                        <p>Javascript</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiNodeDotJs className="icon"/>
-                        <p>Node.js</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiReact className="icon react-icon"/>
-                        <p>React</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiMongodb className="icon mongodb-icon"/>
-                        <p>MongoDB</p>
-                    </div> 
-                    <div className="icon-container">
-                        <SiMysql className="icon mongodb-icon"/>
-                        <p>MySQL</p>
-                    </div>                    
-                    <div className="icon-container">
-                        <SiHtml5 className="icon"/>
-                        <p>Html5</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiCss3 className="icon"/>
-                        <p>CSS3</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiBootstrap className="icon"/>
-                        <p>Bootstrap</p>
-                    </div>
-                    <div className="icon-container">
-                        <SiGit className="icon"/>
-                        <p>Git</p>
-                    </div>                     */}
-
+                    {Object.values(techIcons).map(comp => comp.apply())}
                 </div>
             </div>
         </div>
