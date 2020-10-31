@@ -4,7 +4,7 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 
-nodemailer.createTransport({
+let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
     auth: {
@@ -31,7 +31,7 @@ router.post('/', (req, res, next) => {
     const mail = {
       from: name,
       to: process.env.EMAIL_ADDRESS,
-      title,
+      subject: title,
       text: content
     }
     transporter.sendMail(mail, (err, data) => {
