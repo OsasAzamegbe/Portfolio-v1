@@ -30,10 +30,12 @@ router.post('/', (req, res, next) => {
         res.json({
           status: 'fail'
         })
+        console.log("fail", "\n", err)
       } else {
         res.json({
          status: 'success'
         })
+        console.log("success", "\n", data)
       }
     })
   })
