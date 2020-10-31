@@ -44,9 +44,10 @@ const ContactForm = () => {
             }
         })
 
+        resetForm()
+
         if (response.data.status === 'success'){
             alert("Message Sent."); 
-            resetForm()
         }else if(response.data.status === 'fail'){
             alert("Message failed to send.")
         }
