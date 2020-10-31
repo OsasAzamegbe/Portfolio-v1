@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Card from '../../Card'
+import image from  '../../../images/urlShortening.png'
 const projectsData = require('./projects.json')
 
 
@@ -11,7 +12,7 @@ const Projects = () => {
             <div className="projects-container">
                 {
                     projectsData.map(
-                        (dataObj, index) => <Card {...dataObj} key={index} />
+                        (dataObj, index) => <Card {...dataObj} image={image} key={index} />
                     )
                 }
             </div>

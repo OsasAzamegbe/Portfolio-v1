@@ -2,15 +2,17 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 8px;
     width: 60vmin;
     height: 60vmin;
     transition: all 0.2s ease-in;
+    opacity: 0;
 }
 
 .card-wrapper{
+    margin: 8px;
     cursor: pointer;
-    transition: all 0.5s ease;
+    /* background: url(../images/urlShortening.png) center center/cover; */
+    transition: all 0.2s ease;
 }
 
 .card-pad{
@@ -19,6 +21,10 @@
 }
 
 .card:hover{
+    opacity: 1;
+}
+
+.card-wrapper:hover{
     transform: scale(1.02);    
 }
 
@@ -84,7 +90,6 @@
         width: 90vw;
         height: 90vw;
         font-size: 0.75rem;
-        margin: 12px;
     }
 
     .card-heading{
@@ -107,7 +112,6 @@
 @media screen and (max-width: 320px) {
     .card{
         font-size: 0.75rem;
-        margin: 12px;
     }
 
     .card-heading{

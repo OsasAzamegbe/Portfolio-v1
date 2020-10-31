@@ -4,9 +4,9 @@ import {Link} from 'react-router-dom'
 import * as techIcons from './Icons'
 
 
-const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref, techStack}) => {
+const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref, techStack, image}) => {
     return(
-        <div style={{backgroundImage: "images/urlShortening.png"}} className="card-wrapper" >
+        <div style={{background: `url(${image})  center center/cover`}} className="card-wrapper" >
             <div className="card card-pad">
                 <div className="card-container">
                     <header className="card-heading">{headingText}</header>
@@ -23,8 +23,7 @@ const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref, tech
                         {techStack.map(icon => techIcons[icon].apply())}
                     </div>
                 </div>            
-            </div>
-                   
+            </div>                 
         </div>
     )
 }
