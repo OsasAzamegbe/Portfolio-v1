@@ -3,36 +3,64 @@
         "headingText": "URL Shortening Service",
         "descriptionText": "URL SHORTENER that takes URLs and gives users shortened versions for easier use. The shortened URLs redirect to the original long URL when accessed through a browser.", 
         "codeBaseHref": "//github.com/OsasAzamegbe/Url-Shortening-Service", 
-        "liveVersionHref": "//sh-orten.herokuapp.com/"
+        "liveVersionHref": "//sh-orten.herokuapp.com/",
+        "techStack": [
+            "Node",
+            "React",
+            "MongoDB"
+        ]
     },
     {
-        "headingText": "URL Shortening Service",
-        "descriptionText": "URL SHORTENER that takes URLs and gives users shortened versions for easier use. The shortened URLs redirect to the original long URL when accessed through a browser.", 
-        "codeBaseHref": "//github.com/OsasAzamegbe/Url-Shortening-Service", 
-        "liveVersionHref": "//sh-orten.herokuapp.com/"
+        "headingText": "Snake-JS",
+        "descriptionText": "A client-side Snake game implemented with functional programming principles. The game can be played on both desktop web browsers (with a keyboard) or on mobile devices (with a touchscreen).", 
+        "codeBaseHref": "//github.com/OsasAzamegbe/Snake-JS", 
+        "liveVersionHref": "//snakegame-js.netlify.app/",
+        "techStack": [
+            "Javascript",
+            "HTML5",
+            "CSS3"
+        ]
     },
     {
-        "headingText": "URL Shortening Service",
-        "descriptionText": "URL SHORTENER that takes URLs and gives users shortened versions for easier use. The shortened URLs redirect to the original long URL when accessed through a browser.", 
-        "codeBaseHref": "//github.com/OsasAzamegbe/Url-Shortening-Service", 
-        "liveVersionHref": "//sh-orten.herokuapp.com/"
+        "headingText": "Shinzu",
+        "descriptionText": "A Financial technology front-end web application. A landing page for fintech companies.", 
+        "codeBaseHref": "//github.com/OsasAzamegbe/fintech-web-app", 
+        "liveVersionHref": "//shinzu.netlify.app/",
+        "techStack": [
+            "React"
+        ]
     },
     {
-        "headingText": "URL Shortening Service",
-        "descriptionText": "URL SHORTENER that takes URLs and gives users shortened versions for easier use. The shortened URLs redirect to the original long URL when accessed through a browser.", 
-        "codeBaseHref": "//github.com/OsasAzamegbe/Url-Shortening-Service", 
-        "liveVersionHref": "//sh-orten.herokuapp.com/"
+        "headingText": "BINI TRAVEL",
+        "descriptionText": "This is a social media web app created primarily for travel bloggers and travel enthusiasts to share their travel experiences. It is particularly useful for getting an initial feel for what certain travel destinations are like from the perpective of other travelers and tourists.", 
+        "codeBaseHref": "//github.com/OsasAzamegbe/Travel-Web-App-with-Django-and-Bootstrap", 
+        "liveVersionHref": "//bini-travel.herokuapp.com/",
+        "techStack": [
+            "Django",
+            "MongoDB",
+            "HTML5",
+            "CSS3",
+            "Bootstrap"
+        ]
     },
     {
-        "headingText": "URL Shortening Service",
-        "descriptionText": "URL SHORTENER that takes URLs and gives users shortened versions for easier use. The shortened URLs redirect to the original long URL when accessed through a browser.", 
-        "codeBaseHref": "//github.com/OsasAzamegbe/Url-Shortening-Service", 
-        "liveVersionHref": "//sh-orten.herokuapp.com/"
+        "headingText": "Object Measurement API",
+        "descriptionText": "An API that receives image files as base64 encoded string and measures the sizes of objects in the images based on a given reference object size.", 
+        "codeBaseHref": "//github.com/OsasAzamegbe/Image-Object-Measurement-API", 
+        "liveVersionHref": "//imgobjectmeasurement.herokuapp.com/api/v1/doc/",
+        "techStack": [
+            "Python",
+            "Django"
+        ]
     },
     {
-        "headingText": "URL Shortening Service",
-        "descriptionText": "URL SHORTENER that takes URLs and gives users shortened versions for easier use. The shortened URLs redirect to the original long URL when accessed through a browser.", 
-        "codeBaseHref": "//github.com/OsasAzamegbe/Url-Shortening-Service", 
-        "liveVersionHref": "//sh-orten.herokuapp.com/"
+        "headingText": "Shopify SendBox Shipping Rates API",
+        "descriptionText": "An API for calculating shipping rates for Shopify accounts. It recevies request formatted for the Shopify Carrier Services API and produces the required shipping rates from SendBox.ng.", 
+        "codeBaseHref": "//github.com/OsasAzamegbe/Shopify-SendBox-Integration-API", 
+        "liveVersionHref": "//shopify-sendbox.herokuapp.com/api/v1/doc/",
+        "techStack": [
+            "Python",
+            "Django"
+        ]
     }
 ]
