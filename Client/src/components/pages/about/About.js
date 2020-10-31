@@ -1,10 +1,5 @@
 import React from 'react'
 import './About.css'
-import {
-    SiNodeDotJs, SiReact, SiMongodb, SiPython, 
-    SiDjango, SiJavascript, SiBootstrap, SiHtml5, 
-    SiCss3, SiGit, SiMysql
-} from 'react-icons/si'
 
 
 const About = () => {
@@ -27,7 +22,7 @@ const About = () => {
             <div className="tech-container">
                 <header className="tech-header">Tech Stack</header>
                 <div className="tech-icons">
-                    <div className="icon-container">
+                    {/* <div className="icon-container">
                         <SiPython className="icon"/>
                         <p>Python</p>
                     </div>
@@ -70,7 +65,7 @@ const About = () => {
                     <div className="icon-container">
                         <SiGit className="icon"/>
                         <p>Git</p>
-                    </div>                    
+                    </div>                     */}
 
                 </div>
             </div>
