@@ -22,6 +22,10 @@
     background: url(../images/snake.png) center center/cover;
 }
 
+.card-wrapper:nth-child(3){
+    background: url(../images/shinzu.png) center center/cover;
+}
+
 .card-pad{
     padding: 24px;
     background-color: var(--yellow);
