@@ -36,15 +36,17 @@ const ContactForm = () => {
     const submitHandler = async (e) => {
         e.preventDefault()
 
+        const body = {
+            name, email, title, message
+        }
+
+        resetForm()
+
         const response = await axios({
             method: "POST",
             url: "/send",
-            data: {                
-                name, email, title, message
-            }
+            data: body
         })
-
-        resetForm()
 
         if (response.data.status === 'success'){
             alert("Message Sent."); 
