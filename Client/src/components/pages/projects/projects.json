@@ -5,9 +5,9 @@
         "codeBaseHref": "//github.com/OsasAzamegbe/Url-Shortening-Service", 
         "liveVersionHref": "//sh-orten.herokuapp.com/",
         "techStack": [
-            "Node",
-            "React",
-            "MongoDB"
+            "NodeIcon",
+            "ReactIcon",
+            "MongoDBIcon"
         ]
     },
     {
@@ -16,9 +16,9 @@
         "codeBaseHref": "//github.com/OsasAzamegbe/Snake-JS", 
         "liveVersionHref": "//snakegame-js.netlify.app/",
         "techStack": [
-            "Javascript",
-            "HTML5",
-            "CSS3"
+            "JavascriptIcon",
+            "HTML5Icon",
+            "CSS3Icon"
         ]
     },
     {
@@ -27,7 +27,7 @@
         "codeBaseHref": "//github.com/OsasAzamegbe/fintech-web-app", 
         "liveVersionHref": "//shinzu.netlify.app/",
         "techStack": [
-            "React"
+            "ReactIcon"
         ]
     },
     {
@@ -36,11 +36,11 @@
         "codeBaseHref": "//github.com/OsasAzamegbe/Travel-Web-App-with-Django-and-Bootstrap", 
         "liveVersionHref": "//bini-travel.herokuapp.com/",
         "techStack": [
-            "Django",
-            "MongoDB",
-            "HTML5",
-            "CSS3",
-            "Bootstrap"
+            "DjangoIcon",
+            "MongoDBIcon",
+            "HTML5Icon",
+            "CSS3Icon",
+            "BootstrapIcon"
         ]
     },
     {
@@ -49,8 +49,8 @@
         "codeBaseHref": "//github.com/OsasAzamegbe/Image-Object-Measurement-API", 
         "liveVersionHref": "//imgobjectmeasurement.herokuapp.com/api/v1/doc/",
         "techStack": [
-            "Python",
-            "Django"
+            "PythonIcon",
+            "DjangoIcon"
         ]
     },
     {
@@ -59,8 +59,8 @@
         "codeBaseHref": "//github.com/OsasAzamegbe/Shopify-SendBox-Integration-API", 
         "liveVersionHref": "//shopify-sendbox.herokuapp.com/api/v1/doc/",
         "techStack": [
-            "Python",
-            "Django"
+            "PythonIcon",
+            "DjangoIcon"
         ]
     }
 ]

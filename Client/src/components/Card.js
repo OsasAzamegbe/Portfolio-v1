@@ -1,10 +1,10 @@
 import React from 'react'
 import './Card.css'
 import {Link} from 'react-router-dom'
-import {SiNodeDotJs, SiReact, SiMongodb} from 'react-icons/si'
+import * as techIcons from './Icons'
 
 
-const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref}) => {
+const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref, techStack}) => {
     return(
         <div className="card">
             <div className="card-container">
@@ -19,9 +19,7 @@ const Card = ({headingText, descriptionText, codeBaseHref, liveVersionHref}) => 
                     </Link>
                 </div>
                 <div className="card-techstack">
-                    <SiNodeDotJs className="icon node-icon"/>
-                    <SiReact className="icon react-icon"/>
-                    <SiMongodb className="icon mongodb-icon"/>
+                    {techStack.map(icon => techIcons[icon].apply())}
                 </div>
 
             </div>

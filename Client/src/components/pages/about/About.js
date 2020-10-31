@@ -23,7 +23,7 @@ const About = () => {
             <div className="tech-container">
                 <header className="tech-header">Tech Stack</header>
                 <div className="tech-icons">
-                    {Object.values(techIcons).map(comp => comp.apply())}
+                    {Object.values(techIcons).map(icon => icon.apply())}
                 </div>
             </div>
         </div>
