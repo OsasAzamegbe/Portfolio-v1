@@ -5,6 +5,9 @@ import Navbar from './components/Navbar'
 import Home from './components/pages/Home'
 
 function App() {
+  console.warn = () => ({});
+  console.error = () => ({});
+  console.log = () => ({});  
   return (
     <div className="App">
       <Router>
