@@ -13,7 +13,8 @@
 }
 
 .red{
-    background-color: var(--accent-red);
+    background-color: var(--off-white);
+    color: var(--dark);
 }
 
 

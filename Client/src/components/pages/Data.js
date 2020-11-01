@@ -1,6 +1,6 @@
 const projectsProps = {
     id: "projects",
-    isDark: true,
+    isDark: false,
     isRed: true
 }
 

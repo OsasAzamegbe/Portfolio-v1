@@ -1,9 +1,10 @@
 :root{
   --white: #fff;
-  --off-white: #f2f2f2;
+  --off-white: #f0f0f0;
   --background: #021d44;
   --primary: #f7f6f5;
-  --dark: #612a2a;
+  --dark: #3d3030;
+  /* --dark: #612a2a; */
   /* --accent-red: #f06969; */
   --accent-red: #ec485b;
   --red: #ff3e55;
