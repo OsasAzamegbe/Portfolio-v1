@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b0536ed6.chunk.css",
+    "main.js": "/static/js/main.c8339ec4.chunk.js",
+    "main.js.map": "/static/js/main.c8339ec4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a5231556.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a5231556.js.map",
+    "static/js/2.d00171a0.chunk.js": "/static/js/2.d00171a0.chunk.js",
+    "static/js/2.d00171a0.chunk.js.map": "/static/js/2.d00171a0.chunk.js.map",
+    "static/js/3.7424e508.chunk.js": "/static/js/3.7424e508.chunk.js",
+    "static/js/3.7424e508.chunk.js.map": "/static/js/3.7424e508.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b0536ed6.chunk.css.map": "/static/css/main.b0536ed6.chunk.css.map",
+    "static/js/2.d00171a0.chunk.js.LICENSE.txt": "/static/js/2.d00171a0.chunk.js.LICENSE.txt",
+    "static/media/Card.css": "/static/media/urlShortening.2046cfc2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5231556.js",
+    "static/js/2.d00171a0.chunk.js",
+    "static/css/main.b0536ed6.chunk.css",
+    "static/js/main.c8339ec4.chunk.js"
+  ]
+}
