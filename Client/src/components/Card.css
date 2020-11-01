@@ -11,6 +11,7 @@
 
 .card-wrapper{
     margin: 8px;
+    border: 1px solid var(--red);
     cursor: pointer;
     transition: all 0.2s ease;
 }
