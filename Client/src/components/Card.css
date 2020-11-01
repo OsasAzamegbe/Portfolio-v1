@@ -26,6 +26,18 @@
     background: url(../images/shinzu.png) center center/cover;
 }
 
+.card-wrapper:nth-child(4){
+    background: url(../images/bini.png) center center/cover;
+}
+
+.card-wrapper:nth-child(5){
+    background: url(../images/measure.png) center center/cover;
+}
+
+.card-wrapper:nth-child(6){
+    background: url(../images/shopify.png) center center/cover;
+}
+
 .card-pad{
     padding: 24px;
     background-color: var(--yellow);
